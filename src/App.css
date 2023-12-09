@@ -9,6 +9,7 @@
   width: 80vw;
   margin: auto;
   padding: 2rem;
+  color: white;
 }
 
 .logo {
@@ -51,4 +52,13 @@
   font-size: 5rem;
   font-style: italic;
   color: red;
+}
+
+.title {
+  color: white;
+  font-size: 20px;
+}
+
+.postContainer {
+  border: 1px solid white;
 }

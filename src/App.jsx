@@ -19,7 +19,8 @@ function App() {
     fetchPosts()
   },[])
   
-  
+
+
   if(loading) {
     return (
       <div className='container'>
@@ -30,7 +31,7 @@ function App() {
 
   return (
     <div className='container'>
-          <Posts />
+        <Posts posts={posts}/>
     </div>
   )
 }
