@@ -1,8 +1,9 @@
-function Posts({posts}) {
+import PostItem from "./PostItem"
+
+function Posts({posts, getSingleToDo}) {
     return posts.map((post) => (
-        <div className="postContainer">
-        <h1>{post.title}</h1>
-        <h2>{post.body}</h2>
+        <div className="postContainer" key={post.id}>
+        <PostItem post={post} getSingleToDo={getSingleToDo}/>
         </div>
     ))
 }
