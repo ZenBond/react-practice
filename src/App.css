@@ -46,3 +46,9 @@
 .read-the-docs {
   color: #888;
 }
+
+#loading {
+  font-size: 5rem;
+  font-style: italic;
+  color: red;
+}

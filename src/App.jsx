@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react'
+import Loading from './components/Loadingup'
+import Posts from './components/Posts'
 import './App.css'
 
 
@@ -21,14 +23,14 @@ function App() {
   if(loading) {
     return (
       <div className='container'>
-        <h1>Loading</h1>
+        <Loading />
       </div>
     )
   }
 
   return (
     <div className='container'>
-          <h1>We have posts</h1>
+          <Posts />
     </div>
   )
 }
